@@ -52,7 +52,7 @@ Markovgen = conf.registerPlugin('Markovgen')
 # conf.registerGlobalValue(Markovgen, 'someConfigVariableName',
 #     registry.Boolean(False, _("""Help for someConfigVariableName.""")))
 conf.registerChannelValue(Markovgen, 'probability',
-    registry.Probability(0, _("""Determine the probably the bot has to
+    registry.Probability(1, _("""Determine the probably the bot has to
     reply to a message.""")))
 
 
